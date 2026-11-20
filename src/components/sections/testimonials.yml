@@ -17,7 +17,7 @@ fields:
         label: Subheading
         description: One or two lines under the heading. Clear to hide.
         rows: 2
-        default: "Developers use Starter to ship marketing pages faster and hand the content to the people who write it. Here is how it fits real Laravel workflows."
+        default: "Developers use Starter to ship marketing pages faster and hand the content to the people who write it. Here is how it fits real development workflows."
     headingLevel:
         type: select
         label: Heading level

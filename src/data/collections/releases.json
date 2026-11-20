@@ -37,7 +37,7 @@
         "date": "Jul 21, 2026",
         "kind": "New",
         "title": "Global blocks",
-        "content": "<p>Any section can be made global from its menu. A global block is edited once and updates on every page that uses it, which is what you want for a closing call to action, a pricing teaser or an announcement bar.</p>\n<ul>\n<li>Global blocks show a teal outline on the canvas so you always know when an edit reaches more than one page.</li>\n<li>Detach turns a placement back into an ordinary section with the same values.</li>\n<li>On disk, a block is one Blade file in <code>components/blocks</code>, placed with a single tag.</li>\n</ul>"
+        "content": "<p>Any section can be made global from its menu. A global block is edited once and updates on every page that uses it, which is what you want for a closing call to action, a pricing teaser or an announcement bar.</p>\n<ul>\n<li>Global blocks show a teal outline on the canvas so you always know when an edit reaches more than one page.</li>\n<li>Detach turns a placement back into an ordinary section with the same values.</li>\n<li>On disk, a block is one HTML file in <code>components/blocks</code>, placed with a single tag.</li>\n</ul>"
     },
     {
         "version": "2.9",

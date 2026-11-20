@@ -23,7 +23,7 @@ fields:
         label: Paragraph 2
         description: Clear to hide.
         rows: 4
-        default: "The tools we tried asked us to choose. A headless CMS kept the words in one system and the components in another, and the two drifted. A hosted page builder made the marketing pages look like a different company. What we wanted was to edit the page you are looking at and have the change land in the same Blade files we already wrote."
+        default: "The tools we tried asked us to choose. A headless CMS kept the words in one system and the components in another, and the two drifted. A hosted page builder made the marketing pages look like a different company. What we wanted was to edit the page you are looking at and have the change land in the same HTML files we already wrote."
     paragraph3:
         type: textarea
         label: Paragraph 3

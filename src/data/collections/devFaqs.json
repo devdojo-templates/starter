@@ -1,11 +1,11 @@
 [
     {
-        "question": "Which Laravel versions does it support?",
-        "answer": "Laravel 11, 12 and 13 on PHP 8.2 or newer. Starter installs as a Composer package and adds one service provider to your app."
+        "question": "What does a site need to run?",
+        "answer": "Only the devdojo command from DevDojo Framework, which serves and builds the site. Starter adds nothing else to your project."
     },
     {
-        "question": "Can I use my own components?",
-        "answer": "Yes. Any Blade component with a YAML file beside it becomes a section in the picker, with the fields the YAML names."
+        "question": "Can I use my own sections?",
+        "answer": "Yes. Any HTML file with a YAML file beside it becomes a section in the picker, with the fields the YAML names."
     },
     {
         "question": "Does it need a database?",
@@ -21,6 +21,6 @@
     },
     {
         "question": "Can I remove it later?",
-        "answer": "Yes. The site is served by a small runtime that lives in your app, so it keeps working after the editor package is removed."
+        "answer": "Yes. The site is plain HTML files that DevDojo compiles on its own, so it keeps working after the editor is removed."
     }
 ]

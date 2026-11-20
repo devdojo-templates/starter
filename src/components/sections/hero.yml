@@ -11,7 +11,7 @@ fields:
         type: textarea
         label: Description
         rows: 3
-        default: "Build pages, content, and layouts with the visual design tool built for Laravel applications."
+        default: "Build pages, content, and layouts with the visual design tool built on plain HTML files."
     buttonText:
         type: text
         label: Primary button text

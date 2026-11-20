@@ -5,7 +5,7 @@
             "text": "Product",
             "url": "#",
             "children": [
-                { "text": "Features", "url": "/features", "description": "The canvas, collections and plain Blade underneath" },
+                { "text": "Features", "url": "/features", "description": "The canvas, collections and plain HTML underneath" },
                 { "text": "Customers", "url": "/customers", "description": "Three teams that stopped filing copy tickets" },
                 { "text": "Changelog", "url": "/changelog", "description": "What shipped, every other Tuesday" }
             ]

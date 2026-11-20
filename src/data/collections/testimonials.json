@@ -8,7 +8,7 @@
         "logo": "<svg viewBox='0 0 24 24' class='size-6' fill='none' stroke='currentColor' stroke-width='2.25' stroke-linecap='round' aria-hidden='true'><path d='M3.5 17a8.5 8.5 0 0 1 17 0'/><path d='M8 17a4 4 0 0 1 8 0'/></svg>"
     },
     {
-        "quote": "We dropped the sections into our Laravel app next to our own components. They picked up our tokens, and we did not need a separate design tool for the first launch.",
+        "quote": "We dropped the sections into our site next to our own. They picked up our tokens, and we did not need a separate design tool for the first launch.",
         "name": "Riley Park",
         "role": "Engineering lead, fathom",
         "avatar": "https://assets.ui.sh/avatars/5.webp?size=160",

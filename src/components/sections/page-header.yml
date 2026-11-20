@@ -11,7 +11,7 @@ fields:
         type: text
         label: Heading
         required: true
-        default: "One editor, plain Blade underneath"
+        default: "One editor, plain HTML underneath"
     intro:
         type: textarea
         label: Intro

@@ -1,11 +1,11 @@
 [
     {
-        "title": "Install the package",
-        "text": "One Composer command in your Laravel app. It adds a service provider and a folder for the site, and nothing else."
+        "title": "Create the site",
+        "text": "One command makes a folder for the site: plain HTML files that DevDojo compiles, and nothing else."
     },
     {
         "title": "Pick a template",
-        "text": "Start from Starter, Blank or one of the landing templates. Every page and section is copied into your app as files."
+        "text": "Start from Starter, Blank or one of the landing templates. Every page and section is copied into your site as files."
     },
     {
         "title": "Hand over the words",

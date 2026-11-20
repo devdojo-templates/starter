@@ -25,14 +25,14 @@
     },
     {
         "label": "Code",
-        "title": "Plain Blade, in your repository",
-        "body": "Every section is an anonymous Blade component with a small YAML file beside it. Open it in your editor, review it in a pull request, deploy it like anything else.",
+        "title": "Plain HTML, in your repository",
+        "body": "Every section is a plain HTML file in the HTML syntax DevDojo compiles, with a small YAML file beside it. Open it in your editor, review it in a pull request, deploy it like anything else.",
         "points": [
             "No database and no lock-in",
             "A new YAML file adds a section to the picker",
             "Remove the editor and the site keeps serving"
         ],
         "image": "/images/shot-code.jpg",
-        "imageAlt": "The code view with the sections folder open and a Blade component in the editor"
+        "imageAlt": "The code view with the sections folder open and a section file in the editor"
     }
 ]
