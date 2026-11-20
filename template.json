@@ -1,0 +1,22 @@
+{
+    "name": "Starter",
+    "dialect": "html",
+    "description": "A neutral, light starter site with eight pages including: Home, Features, Pricing with a plan comparison table, Customers with a page per story, Changelog, a Blog with a page per post, About and Contact.",
+    "tagline": "A neutral light starter template",
+    "icon": "🚀",
+    "repo": "https://github.com/devdojo-templates/starter",
+    "order": 1,
+    "category": "landing",
+    "theme": "light",
+    "accent": "#0a0a0a",
+    "pages": [
+        "Home",
+        "Features",
+        "Pricing",
+        "Customers",
+        "Changelog",
+        "Blog",
+        "About",
+        "Contact"
+    ]
+}
