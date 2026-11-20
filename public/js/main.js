@@ -3,7 +3,7 @@
 
     Everything here is a progressive enhancement. With JavaScript off nothing
     is hidden and every link works; the matching transitions live in
-    resources/css/site.css. Reduced motion short-circuits the reveals.
+    src/css/site.css. Reduced motion short-circuits the reveals.
 */
 document.documentElement.classList.add('js');
 
@@ -107,7 +107,7 @@ function mobileMenu() {
 }
 
 /*
-    The announcement banner (sections/banner.blade.php, wherever it is placed): the dismiss button hides it for this visit.
+    The announcement banner (sections/banner.html, wherever it is placed): the dismiss button hides it for this visit.
     The first run takes the whole document, so a banner in the layout is bound once; later runs see only the new <main>.
 */
 function banners(root) {
@@ -118,7 +118,7 @@ function banners(root) {
     });
 }
 
-/* Pricing (sections/pricing.blade.php): the Monthly / Yearly buttons set data-billing on the section; site.css shows the matching price. */
+/* Pricing (sections/pricing.html): the Monthly / Yearly buttons set data-billing on the section; site.css shows the matching price. */
 function pricingToggles(root) {
     root.querySelectorAll('[data-pricing]').forEach(function (section) {
         var options = section.querySelectorAll('[data-billing-option]');
