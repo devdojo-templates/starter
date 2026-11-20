@@ -25,11 +25,11 @@
     <div class="mx-auto w-full max-w-6xl px-6 lg:px-8">
         <div class="max-w-2xl" data-reveal>
             <If eyebrow>
-            <p class="text-xs font-semibold tracking-[0.2em] text-muted-foreground/80 uppercase">{{ eyebrow }}</p>
+            <p class="text-xs font-semibold tracking-[0.2em] text-muted-foreground/80 uppercase">{eyebrow}</p>
             </If>
-            <h2 class="mt-4 max-w-[30ch] text-h2 font-semibold tracking-tight text-balance text-foreground">{{ heading }}</h2>
+            <h2 class="mt-4 max-w-[30ch] text-h2 font-semibold tracking-tight text-balance text-foreground">{heading}</h2>
             <If intro>
-            <p class="mt-5 max-w-[50ch] text-lg/8 text-pretty text-muted-foreground">{{ intro }}</p>
+            <p class="mt-5 max-w-[50ch] text-lg/8 text-pretty text-muted-foreground">{intro}</p>
             </If>
         </div>
 
@@ -40,16 +40,16 @@
                         <th scope="col" class="sticky left-0 z-30 w-[11.5rem] bg-background p-0 align-bottom lg:top-16 lg:w-[34%]"><span class="sr-only">Feature</span></th>
                         <Foreach plans="plan">
                         <th scope="col" class="bg-background p-0 align-bottom last:pr-3 lg:sticky lg:top-16 lg:z-20 lg:last:pr-0">
-                            <div {{ class(['px-3 pt-6 pb-5 lg:px-4', 'rounded-t-2xl bg-muted/60' => plan.featured == 'yes']) }}>
-                                <p class="text-[14px] font-medium text-foreground">{{ plan.name }}</p>
+                            <div {class(['px-3 pt-6 pb-5 lg:px-4', 'rounded-t-2xl bg-muted/60' => plan.featured == 'yes'])}>
+                                <p class="text-[14px] font-medium text-foreground">{plan.name}</p>
                                 <p class="mt-2 flex items-baseline gap-1.5">
-                                    <span class="text-3xl font-semibold tracking-tight text-foreground tabular-nums">{{ plan.price }}</span>
-                                    <span class="text-[13px] font-normal whitespace-nowrap text-muted-foreground">{{ period }}</span>
+                                    <span class="text-3xl font-semibold tracking-tight text-foreground tabular-nums">{plan.price}</span>
+                                    <span class="text-[13px] font-normal whitespace-nowrap text-muted-foreground">{period}</span>
                                 </p>
                                 <If plan.featured="yes">
-                                <a href="{{ plan.ctaLink }}" class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-control bg-primary px-4 py-2 text-[14px] font-medium text-primary-foreground shadow-lg lg:whitespace-nowrap shadow-black/10 transition-all duration-200 hover:-translate-y-0.5 hover:opacity-90 hover:shadow-xl hover:shadow-black/15 active:scale-[.98]">{{ plan.ctaText }}</a>
+                                <a href="{plan.ctaLink}" class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-control bg-primary px-4 py-2 text-[14px] font-medium text-primary-foreground shadow-lg lg:whitespace-nowrap shadow-black/10 transition-all duration-200 hover:-translate-y-0.5 hover:opacity-90 hover:shadow-xl hover:shadow-black/15 active:scale-[.98]">{plan.ctaText}</a>
                                 <Else>
-                                <a href="{{ plan.ctaLink }}" class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-control border border-border bg-card px-4 py-2 text-[14px] font-medium text-foreground/78 transition-colors lg:whitespace-nowrap duration-200 hover:border-border-strong hover:bg-muted active:scale-[.98]">{{ plan.ctaText }}</a>
+                                <a href="{plan.ctaLink}" class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-control border border-border bg-card px-4 py-2 text-[14px] font-medium text-foreground/78 transition-colors lg:whitespace-nowrap duration-200 hover:border-border-strong hover:bg-muted active:scale-[.98]">{plan.ctaText}</a>
                                 </If>
                             </div>
                         </th>
@@ -70,8 +70,8 @@
                         <td colspan="4" class="pt-6 pl-6 lg:pl-0">
                             <button type="button" aria-expanded="false" class="sticky left-0 inline-flex cursor-pointer items-center gap-2 text-[15px] font-medium text-foreground transition-colors duration-200 hover:text-muted-foreground" data-more-toggle>
                                 <svg viewBox="0 0 16 16" class="size-4 shrink-0 fill-current text-muted-foreground" data-more-glyph aria-hidden="true"><path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z"/></svg>
-                                <span data-more-label>{{ moreLabel }}</span>
-                                <span data-less-label>{{ lessLabel }}</span>
+                                <span data-more-label>{moreLabel}</span>
+                                <span data-less-label>{lessLabel}</span>
                             </button>
                         </td>
                     </tr>

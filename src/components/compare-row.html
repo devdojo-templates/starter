@@ -7,14 +7,14 @@
 -->
 <If condition="row.groupStart ?? false">
 <tr <If more>data-more </If>>
-    <th scope="row" class="sticky left-0 z-10 bg-background pt-8 pb-3 pl-6 text-left font-mono text-[11px] font-medium tracking-[0.12em] text-muted-foreground/80 uppercase lg:pl-0">{{ row.group }}</th>
+    <th scope="row" class="sticky left-0 z-10 bg-background pt-8 pb-3 pl-6 text-left font-mono text-[11px] font-medium tracking-[0.12em] text-muted-foreground/80 uppercase lg:pl-0">{row.group}</th>
     <Foreach plans="plan">
-    <td {{ class(['last:pr-3 lg:last:pr-0', 'bg-muted/60' => plan.featured == 'yes']) }}></td>
+    <td {class(['last:pr-3 lg:last:pr-0', 'bg-muted/60' => plan.featured == 'yes'])}></td>
     </Foreach>
 </tr>
 </If>
 <tr <If more>data-more </If>>
-    <th scope="row" class="sticky left-0 z-10 bg-background py-3.5 pr-3 pl-6 text-left text-[15px] font-normal text-foreground lg:pr-4 lg:pl-0">{{ row.feature }}</th>
+    <th scope="row" class="sticky left-0 z-10 bg-background py-3.5 pr-3 pl-6 text-left text-[15px] font-normal text-foreground lg:pr-4 lg:pl-0">{row.feature}</th>
     <Foreach plans="plan">
     <If loop.iteration="1">
     <CompareCell :value="row.plan1 ?? ''" :featured="plan.featured == 'yes'" />

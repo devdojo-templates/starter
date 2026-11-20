@@ -42,9 +42,9 @@ fields:
 ```html
 <Props heading="Plans that grow with you" />
 <section>
-    <h2>{{ heading }}</h2>
+    <h2>{heading}</h2>
     <Foreach plans="plan">
-        <h3>{{ plan.name }}</h3>
+        <h3>{plan.name}</h3>
     </Foreach>
 </section>
 ```
