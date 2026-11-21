@@ -1,4 +1,6 @@
-# Starter
+# Starter Tempate
+
+<img src="./thumbnail.png" style="width:100%; height:auto" />
 
 The starter template for DevDojo: a neutral, light marketing site with eight
 pages (Home, Features, Pricing, Customers, Changelog, Blog, About and Contact).
